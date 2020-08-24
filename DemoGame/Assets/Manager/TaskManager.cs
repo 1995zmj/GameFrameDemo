@@ -7,7 +7,7 @@ using UnityEditor;
 class TaskManager: Singleton<TaskManager>
 {
     private TaskDriver driver = null;
-    private int instanceId = 0;
+    // private int instanceId = 0;
     private List<TaskHandler> pool = null;
     // 判断产出和回收是否一致
     private int creatCount = 0;
