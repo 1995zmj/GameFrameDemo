@@ -124,13 +124,9 @@ public class ScrollViewCtrl : MonoBehaviour
       var c =  Convert.ToInt32(((_data.Count - 1) * (1 - v.y)));
       var minIndex = Mathf.Clamp( c - count, 0, _data.Count - 1);
       var maxindex = Mathf.Clamp(c + count, 0, _data.Count - 1);
-
-      if (minIndex != curMinIndex || maxindex != curMaxIndex)
-      {
-         Debug.Log("Up:" + minIndex + ":" + maxindex);
-         UpdateItems(minIndex, maxindex);
-      }
-      
+     
+      Debug.Log("Up:" + minIndex + ":" + maxindex);
+      UpdateItems(minIndex, maxindex);
    }
       
 }
