@@ -33,8 +33,10 @@ MonoBehaviour:
     m_Address: Assets/Prefabs/Tree.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8864546205707652763, guid: 957631ecb06f82c41b1281a0fdd65431,
+      type: 3}
+    m_TargetAsset: {fileID: 8864546205707652763, guid: 957631ecb06f82c41b1281a0fdd65431,
+      type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 128f17b766b329049b29fa88c90bf919, type: 2}
   m_SchemaSet:
