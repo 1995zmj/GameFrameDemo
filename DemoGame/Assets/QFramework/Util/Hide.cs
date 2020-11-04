@@ -7,9 +7,9 @@
             Hide();
         }
 
-        // protected override void OnBeforeDestroy()
-        // {
-        //
-        // }
+        protected override void OnBeforeDestroy()
+        {
+        
+        }
     }
 }
